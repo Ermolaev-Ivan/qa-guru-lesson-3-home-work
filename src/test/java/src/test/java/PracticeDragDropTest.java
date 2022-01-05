@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class PracticeDragDroptTest {
+public class PracticeDragDropTest {
 
     @BeforeAll
     static void beforeAll() {
@@ -19,7 +19,6 @@ public class PracticeDragDroptTest {
     @Test
     void DragDropTest() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
-
 // Так как нам нужно повторно использовать код, то имеет смысл создать переменные
         SelenideElement elemFirst = $("#column-a");
         SelenideElement elemSecond = $("#column-b");

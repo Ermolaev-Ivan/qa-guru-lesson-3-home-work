@@ -19,7 +19,7 @@ import static com.codeborne.selenide.Selenide.*;
  $("div input[placeholder='First Name']").setValue("Ben"); // напротив найдет нужное поле
 */
 
-public class PracticeFormTests {
+public class SearchGitTest {
 
     @BeforeAll
     static void beforeAll() {
@@ -35,7 +35,7 @@ public class PracticeFormTests {
  */
 
     @Test
-    void formTest() {
+    void SearchForJunit5CodeOnSelenidePage() {
         open("https://github.com/selenide/selenide");
 
         $$("ul.UnderlineNav-body.list-style-none li").find(text("Wiki")).click();
