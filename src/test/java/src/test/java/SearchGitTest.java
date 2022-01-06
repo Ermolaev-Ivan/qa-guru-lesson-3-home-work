@@ -35,7 +35,7 @@ public class SearchGitTest {
  */
 
     @Test
-    void SearchForJunit5CodeOnSelenidePage() {
+    void searchForJunit5CodeOnSelenidePage() {
         open("https://github.com/selenide/selenide");
 
         $$("ul.UnderlineNav-body.list-style-none li").find(text("Wiki")).click();

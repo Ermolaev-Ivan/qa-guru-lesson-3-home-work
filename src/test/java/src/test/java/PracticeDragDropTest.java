@@ -17,7 +17,7 @@ public class PracticeDragDropTest {
     }
 
     @Test
-    void DragDropTest() {
+    void dragDropTest() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
 // Так как нам нужно повторно использовать код, то имеет смысл создать переменные
         SelenideElement elemFirst = $("#column-a");
